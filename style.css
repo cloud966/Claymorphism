@@ -1,0 +1,43 @@
+.box {
+    position: relative;
+    background: #800080;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 20px;
+    /* box-shadow: inset 0 0 1.5rem 10px lightblue; */
+    box-shadow: inset -5px -5px 2rem -5px black,inset 3px 3px 3rem 15px rgb(214, 25, 214), 1rem 1rem 2rem -0.1rem gray;
+    text-align: center;
+    vertical-align: middle;
+    display: grid;
+    place-content: center;
+}
+
+span {
+    color: white;
+    font-size: 5rem;
+}
+
+/* .circles {
+    position: absolute;
+    top: 0;
+    left: 0px;
+} */
+
+.first, .second {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    top: 1rem;
+}
+
+.first {
+    background: lightgoldenrodyellow;
+    right: 1.3rem;
+}
+
+.second {
+    background: lightsalmon;
+    right: 2.3rem;
+}
+
